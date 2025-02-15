@@ -1,4 +1,4 @@
-[![language](https://img.shields.io/badge/language-Bash-001d26?labelColor=%2300c8ff&color=%23001d26)](#)
+[![language](https://img.shields.io/badge/language-Shell-001d26?labelColor=%2300c8ff&color=%23001d26)](#)
 [![OS](https://img.shields.io/badge/OS-Linux-001d26?labelColor=%2300c8ff&color=%23001d26)](#)
 [![Requirement](https://img.shields.io/badge/requirement-Wine-001d26?labelColor=%2300c8ff&color=%23001d26)](#)
 [![Requirement](https://img.shields.io/badge/requirement-Winetricks-001d26?labelColor=%2300c8ff&color=%23001d26)](#)
