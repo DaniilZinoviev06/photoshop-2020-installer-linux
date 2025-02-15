@@ -46,8 +46,8 @@ The purpose of this script is to minimize the possible difficulties that users m
 
 Clone the repository:
 ```bash
-git clone https://github.com/DaniilZinoviev06/photoshop-installer-linux.git
-cd photoshop-installer-linux
+git 
+cd 
 ```
 
 <h2 id="settings">:warning: Settings</h2>
