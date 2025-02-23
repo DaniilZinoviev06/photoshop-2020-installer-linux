@@ -1,8 +1,8 @@
 #!/bin/bash
 
 SCRIPT_FOLDER="$HOME/.photoshop_2020"
-WINE_PREF_PATH="$HOME/.photoshop_2020/ps_prefix"
-SCRIPT_DOWNLOADS="$HOME/.photoshop_2020/ps_downloads"
+WINE_PREF_PATH="$SCRIPT_FOLDER/ps_prefix"
+SCRIPT_DOWNLOADS="$SCRIPT_FOLDER/ps_downloads"
 PHOTOSHOP="$WINE_PREF_PATH/drive_c/Program Files/Adobe/Adobe Photoshop 2020/Photoshop.exe"
 LOG_FILE="$WINE_PREF_PATH/winetricks_install.log"
 DESKTOP_FILE="$HOME/.local/share/applications/photoshop_2020.desktop"
@@ -79,7 +79,7 @@ installArchiveFunc() {
 
                 local file_checksum=$(sha256sum "${SCRIPT_DOWNLOADS}/$1" | awk '{print $1}')
 
-                show_message_info "sha256..."
+                show_message_info "sha256sum..."
 
                 if [ $file_checksum == $3 ]; then
                     show_message_ok "Checksum ok..."

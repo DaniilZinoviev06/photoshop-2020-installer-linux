@@ -27,9 +27,7 @@ main() {
 
         echo -e "\n \e[91m!\e[0m \e[92mDo not change the location of the generated prefix\e[0m"
 
-        echo -e "\n \e[93m!\e[0m After installation, follow the link and read carefully \n\e[95mhttps://github.com/DaniilZinoviev06/photoshop-installer-linux?tab=readme-ov-file#warning-settings\e[0m"
-
-        echo -e "\n \e[91m!\e[0m \e[92mThere are useful links in paragraph 3('info') :)\e[0m"
+        echo -e "\n \e[93m!\e[0m After installation, follow the link and read carefully \n\e[95mhttps://github.com/DaniilZinoviev06/photoshop-2020-installer-linux?tab=readme-ov-file#warning-settings\e[0m"
 
         echo -e "\n\e[97m-------------------------------------------------------\e[0m"
 
@@ -57,7 +55,7 @@ main() {
             2)
                 while true; do
                     clear
-                    echo -e "Author: "
+                    echo -e "repo: https://github.com/DaniilZinoviev06/photoshop-2020-installer-linux"
 
                     echo -e "\n\e[34m|\e[0m 1 - Back\n"
                     read -p "Enter: " choice
@@ -82,7 +80,7 @@ main() {
             3)
                 if [ -f "$PHOTOSHOP" ]; then
                     clear
-                    launcherFunc > /dev/null 2>&1
+                    launcherFunc &> /dev/null
                 else
                     clear
                     show_message_bad "First install Photoshop"

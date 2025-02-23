@@ -12,7 +12,7 @@ launcherFunc() {
 installPSFunc() {
     local ARCHIVE="https://iusearchbtw.isgood.host/files/photoshop_2020.tar.xz"
     local ARCHIVE_NAME="photoshop_2020.tar.xz"
-    local TAR_SHA256="1d49546319f8ca935287d3cbb2026d38d749af64f520db20ac5b763c2fe0729a"
+    local TAR_SHA256="205a782969c8b3f31462e76d3ad463f3a24abdc5c01d59b9a95755376e834b4f"
 
     mkdir -p "$SCRIPT_DOWNLOADS"
 
@@ -25,7 +25,7 @@ installPSFunc() {
 
     sleep 5
 
-    WINEPREFIX="${WINE_PREF_PATH}" wine "${SCRIPT_DOWNLOADS}/setup.exe" /VERYSILENT
+    WINEPREFIX="${WINE_PREF_PATH}" wine "${SCRIPT_DOWNLOADS}/setup.exe" /VERYSILENT  &> /dev/null
 
     sleep 5
 

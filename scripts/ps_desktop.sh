@@ -19,6 +19,7 @@ createDesktopFunc() {
     if [ ! -f "$ICON" ]; then
         show_message_bad "\e[93mphotoshop_icon.png\e[0m not found..."
     else
+        mkdir -p "$HOME/.local/share/icons/"
         cp "$ICON" "$HOME/.local/share/icons/"
     fi
 
