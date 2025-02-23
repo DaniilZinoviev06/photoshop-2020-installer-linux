@@ -71,6 +71,16 @@ chmod +x installer.sh
   
   <details><summary>image</summary><br><div align = center><img alt="Image" src="https://github.com/DaniilZinoviev06/photoshop-installer-linux/blob/master/images/settings_tooltips.png"></div></details>
 
+<h2 id="problems">:fire: Possible problems</h2>
+  <details><summary>Red screen in Camera Raw</summary><br>
+    Solution: Go to the Camera Raw settings(edit -> Camera Raw) and turn off the graphic processor
+  </details>
+
+  <details><summary>Black initial screen, create, export as</summary><br>
+    Solution: Check if there is gdiplus in the library section in the configuration of Wine. Check that Windows 7 is chosen in the configuration<br><br>
+    Alternative: edit -> preferences -> general. Turn off "Show Start workspace" and turn on "Use legacy New document". "Export as" cannot be fixed through the settings, but there is a quick export. I only had this problem on Fedora
+  </details>
+
 <h2 id="gallery">🌄 Gallery</h2>
 
 <p align="center">
