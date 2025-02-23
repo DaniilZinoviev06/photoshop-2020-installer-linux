@@ -86,7 +86,7 @@ chmod +x installer.sh
     Launch the <strong>installer.sh</strong> and select the delete Photoshop option<br><br>
     or remove:<br><br>
     "$HOME/.photoshop_2020"<br>
-    "$HOME/.local/share/applications/photoshop.desktop"<br>
+    "$HOME/.local/share/applications/photoshop_2020.desktop"<br>
     "$HOME/.local/share/icons/photoshop_icon.png"<br>
   </details>
 
