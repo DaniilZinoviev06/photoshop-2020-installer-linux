@@ -24,10 +24,10 @@
 
 <div align="center"> 
   <a href="#about">About</a>&ensp;&ensp;&ensp;
-  <a href="#links">Links</a>&ensp;&ensp;&ensp;
   <a href="#installation">Installation</a>&ensp;&ensp;&ensp;
   <a href="#settings">Settings</a>&ensp;&ensp;&ensp;
   <a href="#gallery">Gallery</a>&ensp;&ensp;&ensp;
+  <a href="#links">Links</a>&ensp;&ensp;&ensp;
 </div><br>
 
 <h2 id="about">:scroll: About</h2>
@@ -53,7 +53,7 @@ Check what you have installed:
 Clone the repository:
 
 ```bash
-git https://github.com/DaniilZinoviev06/photoshop-2020-installer-linux.git
+git clone https://github.com/DaniilZinoviev06/photoshop-2020-installer-linux.git
 cd photoshop-2020-installer-linux
 ```
 
@@ -77,19 +77,19 @@ chmod +x installer.sh
   </details>
 
   <details><summary>Black initial screen, create, export as</summary><br>
-    Solution: Check if there is gdiplus in the library section in the configuration of Wine. Check that Windows 7 is chosen in the configuration<br><br>
+    Solution: Check if there is gdiplus in the library section in the configuration of Wine. 
+    <br><br>
     Alternative: edit -> preferences -> general. Turn off "Show Start workspace" and turn on "Use legacy New document". "Export as" cannot be fixed through the settings, but there is a quick export. I only had this problem on Fedora
   </details>
 
 <h2 id="gallery">🌄 Gallery</h2>
-
-<p align="center">
-    <img width="32%" src="https://github.com/DaniilZinoviev06/photoshop-installer-linux/blob/master/images/ps_arch.png" alt="Arch"/>
-&nbsp;
-    <img width="32%" src="https://github.com/DaniilZinoviev06/photoshop-installer-linux/blob/master/images/ps_arch.png" alt="Endeavour"/>
-&nbsp;
-    <img width="32%" src="https://github.com/DaniilZinoviev06/photoshop-installer-linux/blob/master/images/ps_ubuntu.png" alt="Ubuntu"/>
-</p>
+<div align="center">
+  <table><tr><td>
+    <img src="https://github.com/DaniilZinoviev06/photoshop-2020-installer-linux/blob/master/images/ps_arch.png" alt="Arch"/></td><td>
+    <img src="https://github.com/DaniilZinoviev06/photoshop-2020-installer-linux/blob/master/images/ps_mint.png" alt="Mint"/></td></tr>
+    <tr><td>Arch</td><td>Mint</td></tr>
+  </table>
+</div>
 
 <h2 id="uninstall">:red_circle: Uninstall</h2>
   <details><summary>Uninstall</summary><br>
