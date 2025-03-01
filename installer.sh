@@ -27,8 +27,6 @@ main() {
 
         echo -e "\n \e[91m!\e[0m \e[92mDo not change the location of the generated prefix\e[0m"
 
-        echo -e "\n \e[93m!\e[0m After installation, follow the link and read carefully \n\e[95mhttps://github.com/DaniilZinoviev06/photoshop-2020-installer-linux?tab=readme-ov-file#warning-settings\e[0m"
-
         echo -e "\n\e[97m-------------------------------------------------------\e[0m"
 
         echo -e "\n\e[34m|\e[0m \e[92m1 - Install Photoshop\e[0m\n"
