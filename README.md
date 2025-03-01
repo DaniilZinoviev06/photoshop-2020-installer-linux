@@ -4,7 +4,7 @@
   <a href="#settings">Settings</a>&ensp;&ensp;&ensp;
   <a href="#gallery">Gallery</a>&ensp;&ensp;&ensp;
   <a href="#links">Links</a>&ensp;&ensp;&ensp;
-</div><hr><br>
+</div><hr>
 
 <div align = center>
   <img alt="Image" src="https://github.com/DaniilZinoviev06/photoshop-2020-installer-linux/blob/master/images/banner.png">
@@ -30,7 +30,7 @@
   [![Tested on](https://img.shields.io/badge/tested-Arch-001d26?labelColor=%2300c8ff&color=%23001d26)](#)
   [![Tested on](https://img.shields.io/badge/tested-Ubuntu-001d26?labelColor=%2300c8ff&color=%23001d26)](#)
   [![Tested on](https://img.shields.io/badge/tested-Fedora-001d26?labelColor=%2300c8ff&color=%23001d26)](#)
-</div>
+</div><br>
 
 <h2 id="about">:scroll: About</h2>
 <p>This script will help you install Photoshop CC 2020 on your Linux distribution using Wine.</p>
