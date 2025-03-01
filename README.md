@@ -77,7 +77,8 @@ chmod +x installer.sh
   </details>
 
   <details><summary>Black initial screen, create, export as</summary><br>
-    Solution: Check if there is gdiplus in the library section in the configuration of Wine. Check that Windows 7 is chosen in the configuration<br><br>
+    Solution: Check if there is gdiplus in the library section in the configuration of Wine. 
+    <br><br>
     Alternative: edit -> preferences -> general. Turn off "Show Start workspace" and turn on "Use legacy New document". "Export as" cannot be fixed through the settings, but there is a quick export. I only had this problem on Fedora
   </details>
 
