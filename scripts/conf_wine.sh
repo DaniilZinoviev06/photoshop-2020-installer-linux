@@ -28,7 +28,7 @@ wine_setup() {
 
     sleep 5
 
-    WINEPREFIX="$WINE_PREF_PATH" winetricks --unattended atmlib msxml3 msxml6 gdiplus fontsmooth=rgb vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2022 corefonts 2>&1 | tee "$LOG_FILE"
+    WINEPREFIX="$WINE_PREF_PATH" winetricks --unattended atmlib fontsmooth=rgb vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2022 msxml3 msxml6 corefonts gdiplus 2>&1 | tee "$LOG_FILE"
     if [ $? -eq 0 ]; then
         show_message_ok "The command was executed successfully..."
     else
