@@ -2,8 +2,9 @@
   <a href="#about">About</a>&ensp;&ensp;&ensp;
   <a href="#installation">Installation</a>&ensp;&ensp;&ensp;
   <a href="#settings">Settings</a>&ensp;&ensp;&ensp;
+  <a href="#problems">Problems</a>&ensp;&ensp;&ensp;
   <a href="#gallery">Gallery</a>&ensp;&ensp;&ensp;
-  <a href="#links">Links</a>&ensp;&ensp;&ensp;
+  <a href="#links">Links</a>
 </div><hr>
 
 <div align = center>
