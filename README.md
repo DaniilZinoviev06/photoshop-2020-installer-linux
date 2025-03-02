@@ -42,7 +42,14 @@
 > Taken from <a href="https://www.winehq.org/">here</a>
 
 > [!CAUTION]
->This is a working Photoshop, but he may have <a href="#problems">problems</a>. You should understand that I cannot guarantee that any of the features you typically use will work.
+> This is a working Photoshop, but he may have <a href="#problems">problems</a>. You should understand that I cannot guarantee that any of the features you typically use will work.
+
+> [!IMPORTANT]
+> **8.7 GB** The size of the folder with Photoshop `"$HOME/.photoshop_2020"`
+> 
+> **5.8 GB** Prefix size with Photoshop `"$HOME/.photoshop_2020/ps_prefix"`
+> 
+> **2.9 GB** After installation, you can delete the ps_downloads folder `"$HOME/.photoshop_2020/ps_downloads"`
 
 The purpose of this script is to minimize the possible difficulties that users may encounter during self-installation and configuration. It provides a step-by-step guide and performs all the necessary operations so that you can focus on your work without being distracted by the technical details of the compatibility processes.
 
