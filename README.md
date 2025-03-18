@@ -112,4 +112,5 @@ chmod +x installer.sh
 
 <h2 id="links">:link: Links</h2>
 
-  <a href="https://github.com/DaniilZinoviev06/photoshop-installer-linux">Photoshop CC 2018</a>
+<a href="https://github.com/DaniilZinoviev06/photoshop-installer-linux">Photoshop CC 2018</a><br>
+<a href="https://github.com/DaniilZinoviev06/illustrator-installer-linux">Illustrator</a>
