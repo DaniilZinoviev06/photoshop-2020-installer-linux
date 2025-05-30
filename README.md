@@ -83,7 +83,7 @@ chmod +x installer.sh
 
 <h2 id="problems">:fire: Possible problems</h2>
   <details><summary>Red screen in Camera Raw</summary><br>
-    Solution: Go to the Camera Raw settings(edit -> Camera Raw) and turn off the graphic processor
+    Solution: Go to the Camera Raw settings(edit -> Camera Raw -> Performance) and turn off the graphic processor. p.s also turn off tooltips!
   </details>
 
   <details><summary>Black initial screen, create, export as</summary><br>
