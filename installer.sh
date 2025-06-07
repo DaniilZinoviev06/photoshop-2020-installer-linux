@@ -11,15 +11,6 @@ source ./scripts/general.sh
 main() {
     while true; do
 
-        echo -e "\e[94m######"
-        echo -e "#     # #    #  ####  #####  ####   ####  #    #  ####  #####"
-        echo -e "#     # #    # #    #   #   #    # #      #    # #    # #    #"
-        echo -e "######  ###### #    #   #   #    #  ####  ###### #    # #    #"
-        echo -e "#       #    # #    #   #   #    #      # #    # #    # #####"
-        echo -e "#       #    # #    #   #   #    # #    # #    # #    # #"
-        echo -e "#       #    #  ####    #    ####   ####  #    #  ####  #\e[0m"
-
-
         echo -e "\n \e[91m!\e[0m \e[92mMake sure you have the following dependencies installed:\e[0m"
         echo -e " \e[34m-\e[0m \e[93m wine \e[0m"
         echo -e " \e[34m-\e[0m \e[93m winetricks \e[0m"
