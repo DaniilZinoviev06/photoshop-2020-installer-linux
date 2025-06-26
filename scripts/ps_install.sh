@@ -10,6 +10,7 @@ launcherFunc() {
 }
 
 installPSFunc() {
+    # In tar only .exe btw) Previously, there was not only exe in the container
     local ARCHIVE="https://iusearchbtw.isgood.host/files/photoshop_2020.tar.xz"
     local ARCHIVE_NAME="photoshop_2020.tar.xz"
     local TAR_SHA256="205a782969c8b3f31462e76d3ad463f3a24abdc5c01d59b9a95755376e834b4f"
